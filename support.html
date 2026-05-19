@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — AllerCard</title>
+    <meta name="description" content="Get help with AllerCard. One developer, responsive support, no ticket queues.">
+    <style>
+        :root {
+            color-scheme: light dark;
+            --bg: #fafafa;
+            --fg: #1a1a1a;
+            --muted: #555;
+            --accent: #c8102e;
+            --border: rgba(0,0,0,0.08);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0a0a14;
+                --fg: #f0f0f0;
+                --muted: #a0a0a0;
+                --accent: #ff3050;
+                --border: rgba(255,255,255,0.08);
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--fg);
+            line-height: 1.6;
+            padding: 40px 24px 80px;
+        }
+        .container { max-width: 680px; margin: 0 auto; }
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 8px;
+        }
+        h1 .accent { color: var(--accent); }
+        .intro {
+            color: var(--muted);
+            font-size: 16px;
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border);
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-top: 32px;
+            margin-bottom: 12px;
+        }
+        p { margin-bottom: 14px; color: var(--fg); }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .email-card {
+            background: rgba(200, 16, 46, 0.06);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            margin: 12px 0 24px;
+            text-align: center;
+        }
+        .email-card .label {
+            font-size: 13px;
+            color: var(--muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin-bottom: 8px;
+        }
+        .email-card .addr {
+            font-size: 18px;
+            font-weight: 600;
+            word-break: break-all;
+        }
+        .email-card .response {
+            font-size: 13px;
+            color: var(--muted);
+            margin-top: 10px;
+        }
+        ul { margin: 12px 0 16px 24px; }
+        li { margin-bottom: 6px; }
+        .footer {
+            margin-top: 56px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+            color: var(--muted);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Support <span class="accent">— AllerCard</span></h1>
+        <p class="intro">One developer. No ticket queues. Email goes straight to me.</p>
+
+        <h2>Get in touch</h2>
+        <div class="email-card">
+            <div class="label">Email</div>
+            <div class="addr"><a href="mailto:orlin.ralinov.martinov+allercard@gmail.com">orlin.ralinov.martinov+allercard@gmail.com</a></div>
+            <div class="response">Usually replies within 48 hours.</div>
+        </div>
+
+        <h2>What to include in your message</h2>
+        <ul>
+            <li>Your iPhone model and iOS version</li>
+            <li>AllerCard version (Settings → About)</li>
+            <li>What you were doing when something went wrong</li>
+            <li>The country and language you had selected, if it's a translation question</li>
+        </ul>
+
+        <h2>Common questions</h2>
+        <p><strong>Does AllerCard work offline?</strong> Yes. All translations are bundled inside the app. It works fully in airplane mode.</p>
+        <p><strong>Which languages are supported?</strong> All 24 official EU languages: Bulgarian, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, German, Greek, Hungarian, Irish, Italian, Latvian, Lithuanian, Maltese, Polish, Portuguese, Romanian, Slovak, Slovenian, Spanish, Swedish.</p>
+        <p><strong>Are the translations native-verified?</strong> Allergen names are verified against EU Regulation 1169/2011 Annex II, the legal text used on every food label in the EU. Sentence-level phrases are currently draft formal-register and clearly marked as such in the app's Translation Sources screen. Native-speaker verification is in progress.</p>
+        <p><strong>I found a translation error. How do I report it?</strong> Email the address above with the language, the wrong phrase, and (if you know it) the correct phrase. Translation corrections are prioritized.</p>
+        <p><strong>Is my data sent anywhere?</strong> No. AllerCard collects nothing. Your allergen profile lives on your device only. See the <a href="/privacy.html">privacy policy</a> for details.</p>
+        <p><strong>What if I have a reaction while using AllerCard?</strong> Close the app and call your local emergency number immediately. AllerCard is a translation aid, not a medical device. Always carry any emergency medication your physician has prescribed.</p>
+
+        <div class="footer">
+            <p><a href="/">← AllerCard</a> · <a href="/privacy.html">Privacy Policy</a></p>
+        </div>
+    </div>
+</body>
+</html>
